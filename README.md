@@ -1,7 +1,5 @@
 # Federated Learning and Privacy in AI: Convergence & Vulnerabilities
 
-This repository contains the source code for my Master's thesis project (M2 MIGS - Mathématiques pour l'Ingénierie, Algorithmique et Statistique) at Université Bourgogne Europe.
-
 The project investigates two fundamental aspects of Federated Learning (FL): 
 1. **Algorithmic Efficiency:** The mathematical and empirical convergence of the **FedAvg** algorithm on highly heterogeneous (Non-IID) data.
 2. **Data Privacy:** The critical vulnerabilities of gradient sharing, demonstrated through **Gradient Inversion** and **Label Leakage from Gradients (LLG)** attacks.
@@ -26,4 +24,5 @@ Ensure you have the required Python libraries installed (e.g., PyTorch, NumPy, M
 
 ```bash
 pip install torch torchvision numpy matplotlib
+
 
